@@ -8,7 +8,7 @@
     <body>     
         <h3>Estruturas javascript</h3>
         <ul> 
-            <li><a href="getelementbyid.php">getElementById</a></li>
+            <li><a href="getelementbyid.php">getElementById</a> teste</li>
             <li><a href="getelementsbyclassname.php">getelementsByClassName</a></li>
             <li><a href="getelementsbytagname.php">getelementsByTagName</a></li>
             <li><a href="queryselector.php">querySelector</a></li>
