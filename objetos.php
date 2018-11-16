@@ -32,6 +32,11 @@
                   freio: 'Normal',
                   combustivel:'Gasolina'
               },
+              andar: function(){
+                  alert('andando'); 
+
+              }
+              ,
             "detalhe-modelo": "ESD"
             }; 
             console.log(typeof carro );

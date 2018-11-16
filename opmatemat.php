@@ -19,6 +19,11 @@
         
         
         <script>
+        /**
+         * palavras reservadas
+         * var, function,break,return,continue, 
+         * 
+         */
             var n1 = 2;
             var n2 = 4;
             var n3 = 26+20;

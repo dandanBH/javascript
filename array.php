@@ -23,11 +23,16 @@
             console.log(array[3]);
             var array2 = ['Belo Horizonte',['Santa Amélia',31555440,'Numero 342','Bloco 17',304]];
             console.log(array2[1][3]);
-         
+           
             var carros = ['ka','corsa','fusca',['automatico','gasolina','alcool']];
             carros[4] = 'palio';
-            console.log(carros)
+           console.log(carros)
             
+            carros.forEach(function(elemento){
+                console.log(elemento[3])
+            });
+
+
             console.log(carros[3][0])
             //criando array com new
             var casa = new Array('pequena','grande');
@@ -53,9 +58,7 @@
             console.log(carros.splice(1,0,'HB20')); //adiciona o item      
             console.log(carros.toString()); 
             
-            carros.forEach(function(elemento){
-                console.log(elemento)
-            });
+           
 
 
             //funcao filter - buscar um elemento dentro do array
