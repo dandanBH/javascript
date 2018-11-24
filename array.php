@@ -15,7 +15,7 @@
         
         
         <script>
-            var array = ['danilo',33,'Belo Horizonte',{Bairro: 'Santa Amelia',Cep:'31555-440'}];
+         var array = ['danilo',33,'Belo Horizonte',{Bairro: 'Santa Amelia',Cep:'31555-440'}];
             console.log(array);
             console.log(array[0]);
             console.log(array[1]);
