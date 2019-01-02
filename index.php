@@ -7,7 +7,14 @@
     </head>
     <body>     
         <h3>Estruturas javascript</h3>
-        <ul> 
+        <ul>
+            
+            <li><a href="ec2015.php">ECma Script 2015</a></li> 
+            <li><a href="ec2015_2.php">ECma Script 2015 parte 2</a></li> 
+            <li><a href="manipulacaoDOM.php">Manipulação DOM</a></li> 
+            <li><a href="tabela_listagem.php">Listagem bootstrap</a></li> 
+            <li><a href="crud.php">Formulario Crud</a></li>
+            <li><a href="bootstrap.php">Bootstrap</a></li>
             <li><a href="getelementbyid.php">getElementById</a></li>
             <li><a href="getelementsbyclassname.php">getelementsByClassName</a></li>
             <li><a href="getelementsbytagname.php">getelementsByTagName</a></li>
@@ -26,7 +33,9 @@
             <li><a href="loop.php">Loop</a></li>
             <li><a href="funcoes.php">Funções</a></li>
             <li><a href="funcoes2.php">Funções2</a></li>
+            <li><a href="funcoesJS.php">Funções FORMACAO JS</a></li>
             <li><a href="funcoes3.php">Funções3 - HCODE</a></li>
+            <li><a href="this.php">Funcoes - THIS</a></li> 
             <li><a href="onload.php">Onload</a></li>
             <li><a href="click.php">Click</a></li>
             <li><a href="hover.php">Hover</a></li>

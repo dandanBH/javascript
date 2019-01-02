@@ -24,9 +24,6 @@
                 alert(options[itemAtual].text);
             });
         </script>
-         
-        
-         
         
     </body>
 </html>
