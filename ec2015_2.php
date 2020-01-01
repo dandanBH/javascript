@@ -101,9 +101,29 @@
             venda(objCliente,objProduto,1);
 
             //DESESTRUTURACAO ARRAY
+            console.log("Desestruturacao do array");
+            let array = [1,2,3,4,5,6,7,8,9];
+            let [um, dois, tres] = array;
+
+            console.log(dois);
+
+            let pessoas = [
+                {nomepessoa: 'maria', telefone: '4239048230'},
+                {nomepessoa: 'joao', telefone: '32138273498'}
+            ]
+            let [,{nomepessoa,telefone}] = pessoas; // a virgula despreza o primeiro objeto
+            console.log(`Nome: ${nomepessoa} e telefone ${telefone}`);
             
+            //INVERTER VALORES
+            console.log("Inverter valores");
+            let x = 10;
+            let y = 20;
+            [x,y] = [y,x];
+            console.log("x = ",x);   
+            console.log("y = ",y);
 
-
+            //Como criar classes no ES6
+            
         </script>
          
         

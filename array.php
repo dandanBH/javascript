@@ -85,7 +85,7 @@
             })
             console.log(veiculoFord);
 
-          //funcao some - testa se existe algum elemento  da marca ford
+          //funcao some - testa se existe algum elemento  da marca ford retorna true ou false
           var veiculoFord = veiculo.some(function(elemento){
                 return elemento.marca ==='FORD'
             })
@@ -95,7 +95,7 @@
          var veiculomap = veiculo.map(function(elemento){
                 return elemento.marca
             })
-            console.log(veiculomap);
+            console.log('MAP ',veiculomap);
         
          //funcao reduce - cria array de resultados de calculo
          var veiculoreduce = veiculo.reduce(function(prev,cur){

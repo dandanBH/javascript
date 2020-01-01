@@ -11,6 +11,10 @@
             
             <li><a href="ec2015.php">ECma Script 2015</a></li> 
             <li><a href="ec2015_2.php">ECma Script 2015 parte 2</a></li> 
+
+  
+            <li><a href="classesES6.php">Classes ES6</a></li> 
+
             <li><a href="manipulacaoDOM.php">Manipulação DOM</a></li> 
             <li><a href="tabela_listagem.php">Listagem bootstrap</a></li> 
             <li><a href="crud.php">Formulario Crud</a></li>
