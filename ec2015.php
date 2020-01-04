@@ -86,8 +86,12 @@
 
             let retornoDelete = map.delete(regExp);
             console.log('RetornoDElete ',retornoDelete);
+            console.log('NOVO MAP ', map);
 
             console.log("MAP FOREACH");
+
+
+
             map.forEach(function(valor,chave,map){
                 console.log('valor ',valor, 'chave ',chave);
             });
@@ -190,10 +194,13 @@
             //OPERADOR SPREAD - Propagar estrutura de dados
             
             console.log('Operador Spread');
-            //exemplo 1 - passando argumento para funcao
+            //exemplo 1 - passando argumento para funcao 
             function mostrarNumeros(a,b,c,d){
                 console.log("Numeros ",a,b,c,d);
             }
+
+
+
 
             const arrayNumeros = [1,2,3,4,5,6,7,8,9];
             mostrarNumeros(...arrayNumeros); // o spread passa os argumentos de acordo com o numero de argumentos da funcao
@@ -205,7 +212,7 @@
 
             console.log("Array Spread Letras e numeros");
             let arraySpread = [...arrayLetras, ...arrayNum, ...arrayNum2];
-            console.log(arraySpread);
+            console.log('Array SPREAD ',arraySpread);
 
             console.log("Array Spread Somente Numeros");
             let somenteNumeros = [1,2,3, ...arrayNum];
@@ -319,6 +326,37 @@
             console.log(objNome);
 
 
+            //Classes javascript
+            console.log('CLASSES JAVASCRIPT ES5'); 
+            function PessoaES5(nome,cpf){ //parametros construtor
+                this.nome = nome; // recebe nome do parametro
+                this.cpf = cpf;
+
+            }
+        PessoaES5.prototype.nomeUpper = function(){
+            return this.nome.toUpperCase();
+        }
+
+        var objPessoaES5 = new PessoaES5('Calar','042309482');
+        console.log('OBJ PESSOA 1 ',objPessoaES5);
+        console.log('OBJ PESSOA 1 chamando funcao ',objPessoaES5.nomeUpper());
+
+
+
+
+        console.log('CLASSES JAVASCRIPT ES6'); 
+            class PessoaES6 {
+                constructor(nome,cpf){ //parametros construtor
+                    this.nome = nome; // recebe nome do parametro
+                    this.cpf = cpf;
+                }
+            nomeUpper(){
+                return this.nome.toUpperCase();
+            }
+            };
+            var objPessoaES6 = new PessoaES5('Calar','042309482');
+            console.log('OBJ PESSOA ES6 1 ',objPessoaES6);
+        console.log('OBJ PESSOA ES6 1 chamando funcao ',objPessoaES6.nomeUpper());
 
 
         </script>
